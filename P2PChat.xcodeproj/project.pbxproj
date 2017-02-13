@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		463219441E523FCE009D7635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463219431E523FCE009D7635 /* AppDelegate.swift */; };
+		463219461E523FCE009D7635 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463219451E523FCE009D7635 /* ViewController.swift */; };
+		463219481E523FCE009D7635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463219471E523FCE009D7635 /* Assets.xcassets */; };
+		4632194B1E523FCE009D7635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463219491E523FCE009D7635 /* Main.storyboard */; };
+		463219561E523FCF009D7635 /* P2PChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463219551E523FCF009D7635 /* P2PChatTests.swift */; };
+		463219611E523FCF009D7635 /* P2PChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463219601E523FCF009D7635 /* P2PChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		463219521E523FCE009D7635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 463219381E523FCE009D7635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4632193F1E523FCE009D7635;
+			remoteInfo = P2PChat;
+		};
+		4632195D1E523FCF009D7635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 463219381E523FCE009D7635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4632193F1E523FCE009D7635;
+			remoteInfo = P2PChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		463219401E523FCE009D7635 /* P2PChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P2PChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		463219431E523FCE009D7635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		463219451E523FCE009D7635 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		463219471E523FCE009D7635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4632194A1E523FCE009D7635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4632194C1E523FCE009D7635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463219511E523FCE009D7635 /* P2PChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = P2PChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		463219551E523FCF009D7635 /* P2PChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PChatTests.swift; sourceTree = "<group>"; };
+		463219571E523FCF009D7635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4632195C1E523FCF009D7635 /* P2PChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = P2PChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		463219601E523FCF009D7635 /* P2PChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PChatUITests.swift; sourceTree = "<group>"; };
+		463219621E523FCF009D7635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4632193D1E523FCE009D7635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4632194E1E523FCE009D7635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463219591E523FCF009D7635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		463219371E523FCE009D7635 = {
+			isa = PBXGroup;
+			children = (
+				463219421E523FCE009D7635 /* P2PChat */,
+				463219541E523FCF009D7635 /* P2PChatTests */,
+				4632195F1E523FCF009D7635 /* P2PChatUITests */,
+				463219411E523FCE009D7635 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		463219411E523FCE009D7635 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				463219401E523FCE009D7635 /* P2PChat.app */,
+				463219511E523FCE009D7635 /* P2PChatTests.xctest */,
+				4632195C1E523FCF009D7635 /* P2PChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		463219421E523FCE009D7635 /* P2PChat */ = {
+			isa = PBXGroup;
+			children = (
+				463219431E523FCE009D7635 /* AppDelegate.swift */,
+				463219451E523FCE009D7635 /* ViewController.swift */,
+				463219471E523FCE009D7635 /* Assets.xcassets */,
+				463219491E523FCE009D7635 /* Main.storyboard */,
+				4632194C1E523FCE009D7635 /* Info.plist */,
+			);
+			path = P2PChat;
+			sourceTree = "<group>";
+		};
+		463219541E523FCF009D7635 /* P2PChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				463219551E523FCF009D7635 /* P2PChatTests.swift */,
+				463219571E523FCF009D7635 /* Info.plist */,
+			);
+			path = P2PChatTests;
+			sourceTree = "<group>";
+		};
+		4632195F1E523FCF009D7635 /* P2PChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				463219601E523FCF009D7635 /* P2PChatUITests.swift */,
+				463219621E523FCF009D7635 /* Info.plist */,
+			);
+			path = P2PChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4632193F1E523FCE009D7635 /* P2PChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463219651E523FCF009D7635 /* Build configuration list for PBXNativeTarget "P2PChat" */;
+			buildPhases = (
+				4632193C1E523FCE009D7635 /* Sources */,
+				4632193D1E523FCE009D7635 /* Frameworks */,
+				4632193E1E523FCE009D7635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = P2PChat;
+			productName = P2PChat;
+			productReference = 463219401E523FCE009D7635 /* P2PChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		463219501E523FCE009D7635 /* P2PChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463219681E523FCF009D7635 /* Build configuration list for PBXNativeTarget "P2PChatTests" */;
+			buildPhases = (
+				4632194D1E523FCE009D7635 /* Sources */,
+				4632194E1E523FCE009D7635 /* Frameworks */,
+				4632194F1E523FCE009D7635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				463219531E523FCE009D7635 /* PBXTargetDependency */,
+			);
+			name = P2PChatTests;
+			productName = P2PChatTests;
+			productReference = 463219511E523FCE009D7635 /* P2PChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4632195B1E523FCF009D7635 /* P2PChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4632196B1E523FCF009D7635 /* Build configuration list for PBXNativeTarget "P2PChatUITests" */;
+			buildPhases = (
+				463219581E523FCF009D7635 /* Sources */,
+				463219591E523FCF009D7635 /* Frameworks */,
+				4632195A1E523FCF009D7635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4632195E1E523FCF009D7635 /* PBXTargetDependency */,
+			);
+			name = P2PChatUITests;
+			productName = P2PChatUITests;
+			productReference = 4632195C1E523FCF009D7635 /* P2PChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		463219381E523FCE009D7635 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = micmoo;
+				TargetAttributes = {
+					4632193F1E523FCE009D7635 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					463219501E523FCE009D7635 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4632193F1E523FCE009D7635;
+					};
+					4632195B1E523FCF009D7635 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4632193F1E523FCE009D7635;
+					};
+				};
+			};
+			buildConfigurationList = 4632193B1E523FCE009D7635 /* Build configuration list for PBXProject "P2PChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 463219371E523FCE009D7635;
+			productRefGroup = 463219411E523FCE009D7635 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4632193F1E523FCE009D7635 /* P2PChat */,
+				463219501E523FCE009D7635 /* P2PChatTests */,
+				4632195B1E523FCF009D7635 /* P2PChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4632193E1E523FCE009D7635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463219481E523FCE009D7635 /* Assets.xcassets in Resources */,
+				4632194B1E523FCE009D7635 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4632194F1E523FCE009D7635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4632195A1E523FCF009D7635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4632193C1E523FCE009D7635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463219461E523FCE009D7635 /* ViewController.swift in Sources */,
+				463219441E523FCE009D7635 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4632194D1E523FCE009D7635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463219561E523FCF009D7635 /* P2PChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463219581E523FCF009D7635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463219611E523FCF009D7635 /* P2PChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		463219531E523FCE009D7635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4632193F1E523FCE009D7635 /* P2PChat */;
+			targetProxy = 463219521E523FCE009D7635 /* PBXContainerItemProxy */;
+		};
+		4632195E1E523FCF009D7635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4632193F1E523FCE009D7635 /* P2PChat */;
+			targetProxy = 4632195D1E523FCF009D7635 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		463219491E523FCE009D7635 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4632194A1E523FCE009D7635 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		463219631E523FCF009D7635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		463219641E523FCF009D7635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		463219661E523FCF009D7635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = P2PChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micmoo.P2PChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		463219671E523FCF009D7635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = P2PChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micmoo.P2PChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		463219691E523FCF009D7635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = P2PChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micmoo.P2PChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P2PChat.app/Contents/MacOS/P2PChat";
+			};
+			name = Debug;
+		};
+		4632196A1E523FCF009D7635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = P2PChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micmoo.P2PChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P2PChat.app/Contents/MacOS/P2PChat";
+			};
+			name = Release;
+		};
+		4632196C1E523FCF009D7635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = P2PChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micmoo.P2PChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = P2PChat;
+			};
+			name = Debug;
+		};
+		4632196D1E523FCF009D7635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = P2PChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micmoo.P2PChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = P2PChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4632193B1E523FCE009D7635 /* Build configuration list for PBXProject "P2PChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463219631E523FCF009D7635 /* Debug */,
+				463219641E523FCF009D7635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463219651E523FCF009D7635 /* Build configuration list for PBXNativeTarget "P2PChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463219661E523FCF009D7635 /* Debug */,
+				463219671E523FCF009D7635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		463219681E523FCF009D7635 /* Build configuration list for PBXNativeTarget "P2PChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463219691E523FCF009D7635 /* Debug */,
+				4632196A1E523FCF009D7635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4632196B1E523FCF009D7635 /* Build configuration list for PBXNativeTarget "P2PChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4632196C1E523FCF009D7635 /* Debug */,
+				4632196D1E523FCF009D7635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 463219381E523FCE009D7635 /* Project object */;
+}
