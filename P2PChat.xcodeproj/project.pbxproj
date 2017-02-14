@@ -13,6 +13,10 @@
 		4632194B1E523FCE009D7635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463219491E523FCE009D7635 /* Main.storyboard */; };
 		463219561E523FCF009D7635 /* P2PChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463219551E523FCF009D7635 /* P2PChatTests.swift */; };
 		463219611E523FCF009D7635 /* P2PChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463219601E523FCF009D7635 /* P2PChatUITests.swift */; };
+		463219701E523FFE009D7635 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4632196F1E523FFE009D7635 /* MultipeerConnectivity.framework */; };
+		463219721E5240C3009D7635 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463219711E5240C3009D7635 /* Chat.swift */; };
+		463219741E5243AA009D7635 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463219731E5243AA009D7635 /* ConnectionViewController.swift */; };
+		463219761E525A1F009D7635 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463219751E525A1F009D7635 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		4632195C1E523FCF009D7635 /* P2PChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = P2PChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		463219601E523FCF009D7635 /* P2PChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PChatUITests.swift; sourceTree = "<group>"; };
 		463219621E523FCF009D7635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4632196F1E523FFE009D7635 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		463219711E5240C3009D7635 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		463219731E5243AA009D7635 /* ConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		463219751E525A1F009D7635 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463219701E523FFE009D7635 /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +88,7 @@
 				463219541E523FCF009D7635 /* P2PChatTests */,
 				4632195F1E523FCF009D7635 /* P2PChatUITests */,
 				463219411E523FCE009D7635 /* Products */,
+				4632196E1E523FFE009D7635 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +110,9 @@
 				463219471E523FCE009D7635 /* Assets.xcassets */,
 				463219491E523FCE009D7635 /* Main.storyboard */,
 				4632194C1E523FCE009D7635 /* Info.plist */,
+				463219711E5240C3009D7635 /* Chat.swift */,
+				463219731E5243AA009D7635 /* ConnectionViewController.swift */,
+				463219751E525A1F009D7635 /* ChatViewController.swift */,
 			);
 			path = P2PChat;
 			sourceTree = "<group>";
@@ -120,6 +133,14 @@
 				463219621E523FCF009D7635 /* Info.plist */,
 			);
 			path = P2PChatUITests;
+			sourceTree = "<group>";
+		};
+		4632196E1E523FFE009D7635 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4632196F1E523FFE009D7635 /* MultipeerConnectivity.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +211,7 @@
 				TargetAttributes = {
 					4632193F1E523FCE009D7635 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2K3KVWQ6BZ;
 						ProvisioningStyle = Automatic;
 					};
 					463219501E523FCE009D7635 = {
@@ -255,7 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463219741E5243AA009D7635 /* ConnectionViewController.swift in Sources */,
 				463219461E523FCE009D7635 /* ViewController.swift in Sources */,
+				463219721E5240C3009D7635 /* Chat.swift in Sources */,
+				463219761E525A1F009D7635 /* ChatViewController.swift in Sources */,
 				463219441E523FCE009D7635 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,7 +422,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2K3KVWQ6BZ;
 				INFOPLIST_FILE = P2PChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.micmoo.P2PChat;
@@ -410,7 +437,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2K3KVWQ6BZ;
 				INFOPLIST_FILE = P2PChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.micmoo.P2PChat;
@@ -496,6 +525,7 @@
 				463219671E523FCF009D7635 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		463219681E523FCF009D7635 /* Build configuration list for PBXNativeTarget "P2PChatTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +534,7 @@
 				4632196A1E523FCF009D7635 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4632196B1E523FCF009D7635 /* Build configuration list for PBXNativeTarget "P2PChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +543,7 @@
 				4632196D1E523FCF009D7635 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

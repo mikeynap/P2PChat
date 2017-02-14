@@ -7,6 +7,8 @@
 //
 
 import Cocoa
+import MultipeerConnectivity
+
 
 class ViewController: NSViewController {
 
