@@ -61,7 +61,8 @@ class ChatViewController: NSViewController, ChatManagerDelegate,MCBrowserViewCon
                 v.isHidden = true
             } else {
                 var sv = v as! NSScrollView
-                sv.frame = connectionView.frame            }
+                sv.frame = connectionView.frame
+            }
         }
         subView.frame = connectionView.frame
         subView.display()

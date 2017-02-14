@@ -29,7 +29,7 @@ class ChatManager : NSObject, MCSessionDelegate {
         self.advertiser = MCAdvertiserAssistant(serviceType: SERVICEID, discoveryInfo: nil, session: self.session)
         super.init()
         self.session.delegate = self
-
+        self.browser.maximumNumberOfPeers = 50
     }
     
     func sendToAll(string: String) {
