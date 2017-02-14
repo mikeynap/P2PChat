@@ -17,6 +17,7 @@
 		463219721E5240C3009D7635 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463219711E5240C3009D7635 /* Chat.swift */; };
 		463219741E5243AA009D7635 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463219731E5243AA009D7635 /* ConnectionViewController.swift */; };
 		463219761E525A1F009D7635 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463219751E525A1F009D7635 /* ChatViewController.swift */; };
+		46C6C3DA1E539ED400159A68 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 46C6C3D91E539ED400159A68 /* Credits.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		463219711E5240C3009D7635 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		463219731E5243AA009D7635 /* ConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
 		463219751E525A1F009D7635 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		46C6C3D91E539ED400159A68 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				463219711E5240C3009D7635 /* Chat.swift */,
 				463219731E5243AA009D7635 /* ConnectionViewController.swift */,
 				463219751E525A1F009D7635 /* ChatViewController.swift */,
+				46C6C3D91E539ED400159A68 /* Credits.rtf */,
 			);
 			path = P2PChat;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				463219481E523FCE009D7635 /* Assets.xcassets in Resources */,
+				46C6C3DA1E539ED400159A68 /* Credits.rtf in Resources */,
 				4632194B1E523FCE009D7635 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

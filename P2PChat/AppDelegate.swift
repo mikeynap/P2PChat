@@ -28,7 +28,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func chatManager() -> ChatManager {
         if _chatManager == nil {
-            let id = Host.current().localizedName ?? "wtfisyourhostname"
+            let id = Host.current().localizedName ?? "iHasNoHostName"
             self._chatManager = ChatManager(id: id)
             self._chatManager?.advertiseMe()
         }
